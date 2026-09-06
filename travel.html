@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel &amp; Stay &middot; Griffin &amp; Holly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat:wght@300;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=116" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo"><img src="images/gh.png" alt="Griffin &amp; Holly" /></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="travel.html" aria-current="page">Travel</a></li>
+        <li><a href="things-to-do.html">Things to Do</a></li>
+        <li><a href="wedding-party.html">Wedding Party</a></li>
+        <li><a href="registry.html">Registry</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="our-story.html">Our Story</a></li>
+        <li><a class="nav-cta">RSVP</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="travel" class="section subpage">
+      <div class="container">
+        <p class="section-eyebrow">Travel &amp; Stay</p>
+        <h2>TRAVEL NOTE</h2>
+        <p class="travel-intro">We know some of you will be coming a long way and we couldn't be more appreciative. This location was chosen to show our loved ones exactly why we fell in love with New England. We encourage you to spend some time exploring the coast and all Maine has to offer if you are able to do so.</p>
+      </div>
+    </section>
+
+    <section id="airports" class="section">
+      <div class="container">
+        <h2>AIRPORTS NEARBY</h2>
+        <div class="airports-layout">
+          <div class="airport-photo">
+            <div class="airport-frame">
+              <img src="images/bangorairport.jpg" alt="Bangor International Airport terminal at dusk" />
+            </div>
+          </div>
+          <div class="airport-text">
+            <h3 class="stay-name">Bangor International Airport (BGR)</h3>
+            <p>The closest airport to the venue with a 10 min drive to our main hotel. We recommend this option if it is accessible to you.</p>
+            <p>Other further options include</p>
+            <p>Portland International Airport (PWM)<br />2 hour and 9 minute drive to Bangor</p>
+            <p>Boston Logan International Airport (BOS)<br />3 hour and 35 minute drive to Bangor</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stay" class="section">
+      <div class="container">
+        <h2>WHERE TO STAY</h2>
+        <div class="airports-layout">
+          <div class="airport-photo">
+            <div class="airport-frame">
+              <img src="images/residenceinn.avif" alt="Residence Inn Bangor" />
+            </div>
+          </div>
+          <div class="airport-text">
+            <h3 class="stay-name">Residence Inn Bangor</h3>
+            <p class="stay-address">22 Bass Park Boulevard, Bangor, Maine, 04401</p>
+            <p>We've secured a room block at the Residence Inn Bangor. It's walkable from downtown Bangor, so you'll have plenty of restaurants and shops nearby to explore. The hotel offers a complimentary shuttle to and from Bangor International Airport (just request it when you book or check in), and we'll also be running shuttles to and from the wedding, so no need to worry about driving or parking that day.</p>
+            <p>More booking details and a reservation link to come. Check back soon!</p>
+            <a href="#" class="btn btn-secondary stay-cta" target="_blank" rel="noopener">View</a>
+          </div>
+        </div>
+        <div class="airports-layout">
+          <div class="airport-photo">
+            <div class="airport-frame">
+              <img src="images/fairfieldinn.avif" alt="Fairfield Inn Bangor" />
+            </div>
+          </div>
+          <div class="airport-text">
+            <h3 class="stay-name">Fairfield Inn Bangor</h3>
+            <p class="stay-address">300 Odlin Road, Bangor, ME 04401</p>
+            <p>Another great option nearby, though we don't have a room block here &mdash; book anytime that works for you at the going rate.</p>
+            <a href="#" class="btn btn-secondary stay-cta" target="_blank" rel="noopener">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> &middot; We can't wait to celebrate with you.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
