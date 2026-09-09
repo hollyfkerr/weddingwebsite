@@ -798,6 +798,12 @@ a {
   margin-top: 12px;
 }
 
+.airport-text p.stay-note {
+  margin-top: 44px;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 .airport-text p {
   color: var(--color-text-muted);
   line-height: 1.85;
